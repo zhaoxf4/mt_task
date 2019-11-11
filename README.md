@@ -15,4 +15,4 @@ Windows运行参数：<br>
 ```
 ppl值降到213.64
 
-![image](http://github.com/zhaoxf4/mt_task/raw/master/images/result.png)
+![image](http://github.com/zhaoxf4/mt_task/tree/master/images/result.png)
