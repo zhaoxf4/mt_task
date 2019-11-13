@@ -63,3 +63,31 @@
 
 -fnnlm -dev 0 -lrate 0.007 -wbatch 512 -minmax 0.1 -nepoch 3 -n 5 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
 220??
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 3 -n 3 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+226.62
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 4 -n 5 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+207.06
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 4 -n 4 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+207.51
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 4 -n 6 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff 
+253.61
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 6 -n 5 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff 
+212.40
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 5 -n 5 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+205.97
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 5 -n 6 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+251.36
+
+-fnnlm -dev 0 -lrate 0.007 -wbatch 256 -minmax 0.1 -nepoch 6 -n 6 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+260.25
+
+-fnnlm -dev 0 -lrate 0.0071 -wbatch 256 -minmax 0.1 -nepoch 5 -n 5 -hdepth 1 -hsize 128 -esize 100 -train $(ProjectDir)\data\wsj.train -test $(ProjectDir)\data\wsj.test -output $(ProjectDir)\work\wsj.prob -vsize 10000 -model $(ProjectDir)\work\wsj.model -autodiff
+207.23
+ 
